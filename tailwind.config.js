@@ -3,6 +3,7 @@
 module.exports = {
   content: [
     './App.{js,jsx,ts,tsx}', // main app file
+    './HomeComponents/**/*.{js,jsx,ts,tsx}',
     './screens/**/*.{js,jsx,ts,tsx}', // all files in pages folder
     './src/**/*.{js,jsx,ts,tsx}', // existing src folder
     './*.{js,jsx,ts,tsx}', // all JS/TS files in the project root
